@@ -1,0 +1,134 @@
+/*Theme for SelectXConnect */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    background-image: url('bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display:cover;
+    color: #333; /* Dark text for readability */
+  }
+  .app-container {
+    width: 70%;
+    max-width: 700px;
+    background-color:#037d6f;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px; /* Smooth, rounded corners */
+    outline: none;
+    font-size: 1em;
+    font-family: inherit;
+    transition: all 0.3s ease;
+  }
+  
+  input {
+    background:linear-gradient(to bottom,white,rgb(156, 247, 221));
+    color: #333;
+  }
+  
+  input::placeholder {
+    color: #000;
+    font-style: italic;
+  }
+  
+  input:focus {
+    border-color: #666;
+    box-shadow: 0 0 8px rgba(102, 102, 102, 0.3);
+  }
+  
+  /* Button Styles */
+  button {
+    background:linear-gradient(to bottom,white,rgb(156, 247, 221));
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #333;
+    border-color: #444;
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Contact and Group Lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  img{
+    width:60px;
+  }
+  #tagline{
+  width:320px;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 8px 0;
+    background-color: #f4f4f9;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.02); /* Slight hover scale */
+  }
+  
+  li button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    background-color: #444;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    border-color: #037d6f;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  li button:hover {
+    background-color: #333;
+    color: #fff;
+  }

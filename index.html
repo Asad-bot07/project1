@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectXConnect</title>
+    <link rel="stylesheet" href="stylees.css">
+</head>
+<body>
+    <div class="app-container">
+        <img src="logogreen.jpg" width="50px" height="50px" alt="Logo">
+        <br>
+        <img id="tagline" src="tggreen.jpg" alt="Tagline">
+        
+        <div class="contact-form">
+            <h2>Add Contact</h2>
+            <input type="text" id="contactName" placeholder="Contact Name" required>
+            <input type="tel" id="contactNumber" placeholder="Phone Number" required>
+            <button onclick="addContact()">Add Contact</button>
+            <button onclick="makecall()">call</button>
+        </div>
+
+        <div class="contact-list">
+            <h2>Contacts</h2>
+            <ul id="contactList"></ul>
+        </div>
+
+        <div class="group-creation">
+            <h2>Create Group</h2>
+            <input type="text" id="groupName" placeholder="Group Name" required>
+            <button onclick="createGroup()">Create Group</button>
+            <ul id="selectedContactsList"></ul>
+        </div>
+
+        <div class="group-list">
+            <h2>Groups</h2>
+            <ul id="groupList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
